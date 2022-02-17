@@ -1,0 +1,63 @@
+.jumbotron {
+  padding-top: 8rem;
+  background-image: url(img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 0 700px;
+  color: rgb(252, 207, 8);
+  border-bottom: rgb(241, 60, 39) solid;
+  font-size: 16px solid;
+  position: relative;
+}
+
+/* mobile jumbotron */
+
+#project {
+  background-color: #0099ff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* icon sosmed */
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn {
+  border: 1px solid #fff;
+}
+
+ul.social-buttons {
+  color: rgb(20, 18, 18);
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #087bee;
+}
+
+/* hover */
+ul li {
+  transition: all 0.2s ease-in-out;
+}
+ul li:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    height: 520px;
+  }
+}
